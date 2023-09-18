@@ -11,7 +11,7 @@ module.exports = {
 
     },
     resolve: {
-        extends: ['.js']
+        extensions: ['.js']
     },//resolve nos permite identificar los diferentes extensiones que trabajaremos en este proyecto.
     module: {
         rules: [
